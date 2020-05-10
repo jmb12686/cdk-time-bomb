@@ -1,0 +1,37 @@
+{
+  "name": "time-bomb",
+  "version": "1.0.0",
+  "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
+  "main": "time-bomb.js",
+  "types": "time-bomb.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmb12686/time-bomb.git"
+  },
+  "stability": "experimental",
+  //TODO Finish configuring JSII compliant module: https://github.com/aws/jsii/blob/master/docs/configuration.md#the-jsii-section
+  //TODO Continue publishing guide https://www.matthewbonig.com/2020/01/11/creating-constructs/
+  "keywords": [],
+  "author": {
+    "name": "John Belisle",                
+    "email": "jmb186@gmail.com",
+    "url": "https://github.com/jmb12686",
+    "organization": false
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmb12686/time-bomb/issues"
+  },
+  "homepage": "https://github.com/jmb12686/time-bomb#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.5",
+    "jest": "^26.0.1",
+    "jsii": "^1.5.0",
+    "jsii-pacmak": "^1.5.0",
+    "ts-jest": "^25.5.1"
+  }
+}
