@@ -2,24 +2,46 @@
   "name": "time-bomb",
   "version": "1.0.0",
   "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
-  "main": "time-bomb.js",
-  "types": "time-bomb.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "jsii",
+    "build:watch": "jsii -w",
+    "package": "jsii-pacmak",
+    "test": "tsc && jest",
+    "watch": "tsc -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jmb12686/time-bomb.git"
   },
   "stability": "experimental",
-  //TODO Finish configuring JSII compliant module: https://github.com/aws/jsii/blob/master/docs/configuration.md#the-jsii-section
-  //TODO Continue publishing guide https://www.matthewbonig.com/2020/01/11/creating-constructs/
   "keywords": [],
   "author": {
-    "name": "John Belisle",                
+    "name": "John Belisle",
     "email": "jmb186@gmail.com",
     "url": "https://github.com/jmb12686",
     "organization": false
+  },
+  "jsii": {
+    "targets": {
+      "python": {
+        "module": "cdk-time-bomb",
+        "distName": "cdk-time-bomb"
+      },
+      "java": {
+        "package": "jmb12686.cdk.timebomb",
+        "maven": {
+          "groupId": "jmb12686.cdk",
+          "artifactId": "timebomb"
+        }
+      },
+      "tsc": {
+        "outDir": "./lib/",
+        "rootDir": "./lib/"
+      }
+    },
+    "outdir": "./lib/"
   },
   "license": "MIT",
   "bugs": {
@@ -33,5 +55,19 @@
     "jsii": "^1.5.0",
     "jsii-pacmak": "^1.5.0",
     "ts-jest": "^25.5.1"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-events": "^1.38.0",
+    "@aws-cdk/aws-events-targets": "^1.38.0",
+    "@aws-cdk/aws-iam": "^1.38.0",
+    "@aws-cdk/aws-lambda": "^1.38.0",
+    "@aws-cdk/core": "^1.38.0"
+  },
+  "peerDependencies": {
+    "@aws-cdk/aws-events": "^1.38.0",
+    "@aws-cdk/aws-events-targets": "^1.38.0",
+    "@aws-cdk/aws-iam": "^1.38.0",
+    "@aws-cdk/aws-lambda": "^1.38.0",
+    "@aws-cdk/core": "^1.38.0"
   }
 }

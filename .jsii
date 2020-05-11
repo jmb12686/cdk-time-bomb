@@ -1,0 +1,1252 @@
+{
+  "author": {
+    "email": "jmb186@gmail.com",
+    "name": "John Belisle",
+    "roles": [
+      "author"
+    ],
+    "url": "https://github.com/jmb12686"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-events": "^1.38.0",
+    "@aws-cdk/aws-events-targets": "^1.38.0",
+    "@aws-cdk/aws-iam": "^1.38.0",
+    "@aws-cdk/aws-lambda": "^1.38.0",
+    "@aws-cdk/core": "^1.38.0"
+  },
+  "dependencyClosure": {
+    "@aws-cdk/assets": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.Assets",
+          "packageId": "Amazon.CDK.Assets",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-assets",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.assets"
+        },
+        "js": {
+          "npm": "@aws-cdk/assets"
+        },
+        "python": {
+          "distName": "aws-cdk.assets",
+          "module": "aws_cdk.assets"
+        }
+      }
+    },
+    "@aws-cdk/aws-apigateway": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.APIGateway",
+          "packageId": "Amazon.CDK.AWS.APIGateway",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "apigateway",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.apigateway"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-apigateway"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-apigateway",
+          "module": "aws_cdk.aws_apigateway"
+        }
+      }
+    },
+    "@aws-cdk/aws-applicationautoscaling": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.ApplicationAutoScaling",
+          "packageId": "Amazon.CDK.AWS.ApplicationAutoScaling",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "applicationautoscaling",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.applicationautoscaling"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-applicationautoscaling"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-applicationautoscaling",
+          "module": "aws_cdk.aws_applicationautoscaling"
+        }
+      }
+    },
+    "@aws-cdk/aws-autoscaling": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.AutoScaling",
+          "packageId": "Amazon.CDK.AWS.AutoScaling",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "autoscaling",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.autoscaling"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-autoscaling"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-autoscaling",
+          "module": "aws_cdk.aws_autoscaling"
+        }
+      }
+    },
+    "@aws-cdk/aws-autoscaling-common": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.AutoScaling.Common",
+          "packageId": "Amazon.CDK.AWS.AutoScaling.Common",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "autoscaling-common",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.autoscaling.common"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-autoscaling-common"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-autoscaling-common",
+          "module": "aws_cdk.aws_autoscaling_common"
+        }
+      }
+    },
+    "@aws-cdk/aws-autoscaling-hooktargets": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.AutoScaling.HookTargets",
+          "packageId": "Amazon.CDK.AWS.AutoScaling.HookTargets",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "autoscaling-hooktargets",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.autoscaling.hooktargets"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-autoscaling-hooktargets"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-autoscaling-hooktargets",
+          "module": "aws_cdk.aws_autoscaling_hooktargets"
+        }
+      }
+    },
+    "@aws-cdk/aws-batch": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Batch",
+          "packageId": "Amazon.CDK.AWS.Batch",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "batch",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.batch"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-batch"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-batch",
+          "module": "aws_cdk.aws_batch"
+        }
+      }
+    },
+    "@aws-cdk/aws-certificatemanager": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CertificateManager",
+          "packageId": "Amazon.CDK.AWS.CertificateManager",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "certificatemanager",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.certificatemanager"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-certificatemanager"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-certificatemanager",
+          "module": "aws_cdk.aws_certificatemanager"
+        }
+      }
+    },
+    "@aws-cdk/aws-cloudformation": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CloudFormation",
+          "packageId": "Amazon.CDK.AWS.CloudFormation",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cloudformation",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.cloudformation"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-cloudformation"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-cloudformation",
+          "module": "aws_cdk.aws_cloudformation"
+        }
+      }
+    },
+    "@aws-cdk/aws-cloudfront": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CloudFront",
+          "packageId": "Amazon.CDK.AWS.CloudFront",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cloudfront",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.cloudfront"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-cloudfront"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-cloudfront",
+          "module": "aws_cdk.aws_cloudfront"
+        }
+      }
+    },
+    "@aws-cdk/aws-cloudwatch": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CloudWatch",
+          "packageId": "Amazon.CDK.AWS.CloudWatch",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cloudwatch",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.cloudwatch"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-cloudwatch"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-cloudwatch",
+          "module": "aws_cdk.aws_cloudwatch"
+        }
+      }
+    },
+    "@aws-cdk/aws-codebuild": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CodeBuild",
+          "packageId": "Amazon.CDK.AWS.CodeBuild",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "codebuild",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.codebuild"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-codebuild"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-codebuild",
+          "module": "aws_cdk.aws_codebuild"
+        }
+      }
+    },
+    "@aws-cdk/aws-codecommit": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CodeCommit",
+          "packageId": "Amazon.CDK.AWS.CodeCommit",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "codecommit",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.codecommit"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-codecommit"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-codecommit",
+          "module": "aws_cdk.aws_codecommit"
+        }
+      }
+    },
+    "@aws-cdk/aws-codepipeline": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.CodePipeline",
+          "packageId": "Amazon.CDK.AWS.CodePipeline",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "codepipeline",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.codepipeline"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-codepipeline"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-codepipeline",
+          "module": "aws_cdk.aws_codepipeline"
+        }
+      }
+    },
+    "@aws-cdk/aws-cognito": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Cognito",
+          "packageId": "Amazon.CDK.AWS.Cognito",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cognito",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.cognito"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-cognito"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-cognito",
+          "module": "aws_cdk.aws_cognito"
+        }
+      }
+    },
+    "@aws-cdk/aws-ec2": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.EC2",
+          "packageId": "Amazon.CDK.AWS.EC2",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "ec2",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.ec2"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-ec2"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-ec2",
+          "module": "aws_cdk.aws_ec2"
+        }
+      }
+    },
+    "@aws-cdk/aws-ecr": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.ECR",
+          "packageId": "Amazon.CDK.AWS.ECR",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "ecr",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.ecr"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-ecr"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-ecr",
+          "module": "aws_cdk.aws_ecr"
+        }
+      }
+    },
+    "@aws-cdk/aws-ecr-assets": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Ecr.Assets",
+          "packageId": "Amazon.CDK.ECR.Assets",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "ecr-assets",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.ecr.assets"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-ecr-assets"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-ecr-assets",
+          "module": "aws_cdk.aws_ecr_assets"
+        }
+      }
+    },
+    "@aws-cdk/aws-ecs": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.ECS",
+          "packageId": "Amazon.CDK.AWS.ECS",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "ecs",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.ecs"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-ecs"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-ecs",
+          "module": "aws_cdk.aws_ecs"
+        }
+      }
+    },
+    "@aws-cdk/aws-elasticloadbalancing": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.ElasticLoadBalancing",
+          "packageId": "Amazon.CDK.AWS.ElasticLoadBalancing",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "elasticloadbalancing",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.elasticloadbalancing"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-elasticloadbalancing"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-elasticloadbalancing",
+          "module": "aws_cdk.aws_elasticloadbalancing"
+        }
+      }
+    },
+    "@aws-cdk/aws-elasticloadbalancingv2": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.ElasticLoadBalancingV2",
+          "packageId": "Amazon.CDK.AWS.ElasticLoadBalancingV2",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "elasticloadbalancingv2",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.elasticloadbalancingv2"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-elasticloadbalancingv2"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-elasticloadbalancingv2",
+          "module": "aws_cdk.aws_elasticloadbalancingv2"
+        }
+      }
+    },
+    "@aws-cdk/aws-events": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Events",
+          "packageId": "Amazon.CDK.AWS.Events",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "events",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.events"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-events"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-events",
+          "module": "aws_cdk.aws_events"
+        }
+      }
+    },
+    "@aws-cdk/aws-events-targets": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Events.Targets",
+          "packageId": "Amazon.CDK.AWS.Events.Targets",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "events-targets",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.events.targets"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-events-targets"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-events-targets",
+          "module": "aws_cdk.aws_events_targets"
+        }
+      }
+    },
+    "@aws-cdk/aws-iam": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.IAM",
+          "packageId": "Amazon.CDK.AWS.IAM",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "iam",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.iam"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-iam"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-iam",
+          "module": "aws_cdk.aws_iam"
+        }
+      }
+    },
+    "@aws-cdk/aws-kms": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.KMS",
+          "packageId": "Amazon.CDK.AWS.KMS",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "kms",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.kms"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-kms"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-kms",
+          "module": "aws_cdk.aws_kms"
+        }
+      }
+    },
+    "@aws-cdk/aws-lambda": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Lambda",
+          "packageId": "Amazon.CDK.AWS.Lambda",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "lambda",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.lambda"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-lambda"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-lambda",
+          "module": "aws_cdk.aws_lambda"
+        }
+      }
+    },
+    "@aws-cdk/aws-logs": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Logs",
+          "packageId": "Amazon.CDK.AWS.Logs",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "logs",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.logs"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-logs"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-logs",
+          "module": "aws_cdk.aws_logs"
+        }
+      }
+    },
+    "@aws-cdk/aws-route53": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Route53",
+          "packageId": "Amazon.CDK.AWS.Route53",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "route53",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.route53"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-route53"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-route53",
+          "module": "aws_cdk.aws_route53"
+        }
+      }
+    },
+    "@aws-cdk/aws-route53-targets": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Route53.Targets",
+          "packageId": "Amazon.CDK.AWS.Route53.Targets",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "route53-targets",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.route53.targets"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-route53-targets"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-route53-targets",
+          "module": "aws_cdk.aws_route53_targets"
+        }
+      }
+    },
+    "@aws-cdk/aws-s3": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.S3",
+          "packageId": "Amazon.CDK.AWS.S3",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "s3",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.s3"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-s3"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-s3",
+          "module": "aws_cdk.aws_s3"
+        }
+      }
+    },
+    "@aws-cdk/aws-s3-assets": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.S3.Assets",
+          "packageId": "Amazon.CDK.AWS.S3.Assets",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "s3-assets",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.s3.assets"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-s3-assets"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-s3-assets",
+          "module": "aws_cdk.aws_s3_assets"
+        }
+      }
+    },
+    "@aws-cdk/aws-sam": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.SAM",
+          "packageId": "Amazon.CDK.AWS.SAM",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "sam",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.sam"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-sam"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-sam",
+          "module": "aws_cdk.aws_sam"
+        }
+      }
+    },
+    "@aws-cdk/aws-secretsmanager": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.SecretsManager",
+          "packageId": "Amazon.CDK.AWS.SecretsManager",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "secretsmanager",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.secretsmanager"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-secretsmanager"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-secretsmanager",
+          "module": "aws_cdk.aws_secretsmanager"
+        }
+      }
+    },
+    "@aws-cdk/aws-servicediscovery": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.ServiceDiscovery",
+          "packageId": "Amazon.CDK.AWS.ServiceDiscovery",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "servicediscovery",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.servicediscovery"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-servicediscovery"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-servicediscovery",
+          "module": "aws_cdk.aws_servicediscovery"
+        }
+      }
+    },
+    "@aws-cdk/aws-sns": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.SNS",
+          "packageId": "Amazon.CDK.AWS.SNS",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "sns",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.sns"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-sns"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-sns",
+          "module": "aws_cdk.aws_sns"
+        }
+      }
+    },
+    "@aws-cdk/aws-sns-subscriptions": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.SNS.Subscriptions",
+          "packageId": "Amazon.CDK.AWS.SNS.Subscriptions",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "sns-subscriptions",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.sns.subscriptions"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-sns-subscriptions"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-sns-subscriptions",
+          "module": "aws_cdk.aws_sns_subscriptions"
+        }
+      }
+    },
+    "@aws-cdk/aws-sqs": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.SQS",
+          "packageId": "Amazon.CDK.AWS.SQS",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "sqs",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.sqs"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-sqs"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-sqs",
+          "module": "aws_cdk.aws_sqs"
+        }
+      }
+    },
+    "@aws-cdk/aws-ssm": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.SSM",
+          "packageId": "Amazon.CDK.AWS.SSM",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "ssm",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.ssm"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-ssm"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-ssm",
+          "module": "aws_cdk.aws_ssm"
+        }
+      }
+    },
+    "@aws-cdk/aws-stepfunctions": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.StepFunctions",
+          "packageId": "Amazon.CDK.AWS.StepFunctions",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "stepfunctions",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.stepfunctions"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-stepfunctions"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-stepfunctions",
+          "module": "aws_cdk.aws_stepfunctions"
+        }
+      }
+    },
+    "@aws-cdk/cloud-assembly-schema": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.CloudAssembly.Schema",
+          "packageId": "Amazon.CDK.CloudAssembly.Schema",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-cloud-assembly-schema",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.cloudassembly.schema"
+        },
+        "js": {
+          "npm": "@aws-cdk/cloud-assembly-schema"
+        },
+        "python": {
+          "distName": "aws-cdk.cloud-assembly-schema",
+          "module": "aws_cdk.cloud_assembly_schema"
+        }
+      }
+    },
+    "@aws-cdk/core": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK",
+          "packageId": "Amazon.CDK",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "core",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.core"
+        },
+        "js": {
+          "npm": "@aws-cdk/core"
+        },
+        "python": {
+          "distName": "aws-cdk.core",
+          "module": "aws_cdk.core"
+        }
+      }
+    },
+    "@aws-cdk/custom-resources": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.CustomResources",
+          "packageId": "Amazon.CDK.AWS.CustomResources",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-customresources",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.customresources"
+        },
+        "js": {
+          "npm": "@aws-cdk/custom-resources"
+        },
+        "python": {
+          "distName": "aws-cdk.custom-resources",
+          "module": "aws_cdk.custom_resources"
+        }
+      }
+    },
+    "@aws-cdk/cx-api": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.CXAPI",
+          "packageId": "Amazon.CDK.CXAPI",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-cx-api",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.cxapi"
+        },
+        "js": {
+          "npm": "@aws-cdk/cx-api"
+        },
+        "python": {
+          "distName": "aws-cdk.cx-api",
+          "module": "aws_cdk.cx_api"
+        }
+      }
+    },
+    "@aws-cdk/region-info": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.RegionInfo",
+          "packageId": "Amazon.CDK.RegionInfo",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdk-region-info",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.regioninfo"
+        },
+        "js": {
+          "npm": "@aws-cdk/region-info"
+        },
+        "python": {
+          "distName": "aws-cdk.region-info",
+          "module": "aws_cdk.region_info"
+        }
+      }
+    },
+    "constructs": {
+      "targets": {
+        "dotnet": {
+          "namespace": "Constructs",
+          "packageId": "Constructs"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "constructs",
+            "groupId": "software.constructs"
+          },
+          "package": "software.constructs"
+        },
+        "js": {
+          "npm": "constructs"
+        },
+        "python": {
+          "distName": "constructs",
+          "module": "constructs"
+        }
+      }
+    }
+  },
+  "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
+  "docs": {
+    "stability": "experimental"
+  },
+  "homepage": "https://github.com/jmb12686/time-bomb#readme",
+  "jsiiVersion": "1.5.0 (build 46538f8)",
+  "keywords": [],
+  "license": "MIT",
+  "name": "time-bomb",
+  "readme": {
+    "markdown": "# time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmb12686/time-bomb.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "java": {
+      "maven": {
+        "artifactId": "timebomb",
+        "groupId": "jmb12686.cdk"
+      },
+      "package": "jmb12686.cdk.timebomb"
+    },
+    "js": {
+      "npm": "time-bomb"
+    },
+    "python": {
+      "distName": "cdk-time-bomb",
+      "module": "cdk-time-bomb"
+    },
+    "tsc": {
+      "outDir": "./lib/",
+      "rootDir": "./lib/"
+    }
+  },
+  "types": {
+    "time-bomb.SelfDestruct": {
+      "assembly": "time-bomb",
+      "base": "@aws-cdk/core.Construct",
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "time-bomb.SelfDestruct",
+      "initializer": {
+        "docs": {
+          "stability": "experimental"
+        },
+        "parameters": [
+          {
+            "name": "scope",
+            "type": {
+              "fqn": "@aws-cdk/core.Construct"
+            }
+          },
+          {
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "props",
+            "type": {
+              "fqn": "time-bomb.SelfDestructProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "lib/index.ts",
+        "line": 16
+      },
+      "name": "SelfDestruct"
+    },
+    "time-bomb.SelfDestructProps": {
+      "assembly": "time-bomb",
+      "datatype": true,
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "time-bomb.SelfDestructProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "lib/index.ts",
+        "line": 12
+      },
+      "name": "SelfDestructProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "experimental"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "lib/index.ts",
+            "line": 13
+          },
+          "name": "timeToLive",
+          "type": {
+            "fqn": "@aws-cdk/core.Duration"
+          }
+        }
+      ]
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "Y/D4mm/yVtCI0OjSLkjkof8+ljiRNtb98iXYWntthNg="
+}
