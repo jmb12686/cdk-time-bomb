@@ -35,6 +35,10 @@
           "groupId": "jmb12686.cdk",
           "artifactId": "timebomb"
         }
+      },
+      "dotnet": {
+        "namespace": "jmb12686.timebomb",
+        "packageId": "jmb12686.timebomb"
       }
     },
     "outdir": "dist"

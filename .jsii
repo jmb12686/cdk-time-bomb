@@ -1156,6 +1156,10 @@
   },
   "schema": "jsii/0.10.0",
   "targets": {
+    "dotnet": {
+      "namespace": "jmb12686.timebomb",
+      "packageId": "jmb12686.timebomb"
+    },
     "java": {
       "maven": {
         "artifactId": "timebomb",
@@ -1244,5 +1248,5 @@
     }
   },
   "version": "1.0.0",
-  "fingerprint": "ZYG5X8Aouv6ybi+pcoO3F5vlgbgV7h4okiPDAwjGB8M="
+  "fingerprint": "ZiUrRbl9uqrCs+KE0TPu88x2tDU5yQBZ4Jjxm7V6Nu4="
 }
