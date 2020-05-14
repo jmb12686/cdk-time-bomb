@@ -12,23 +12,9 @@ npm install cdk-time-bomb
 Import the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:
 
 
-```typescript
-
+```javascript
 import { SelfDestruct} from 'cdk-time-bomb';
-
-export class AwsFargateClusterStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
-    super(scope, id, props);
-
-    const selfDestruct = new SelfDestruct(this, "selfDestructor", {
-      timeToLive: Duration.minutes(60),
-    });
-
-    const vpc = new ec2.Vpc(this, "VPC", {
-      maxAzs: 3,
-    });
-
+const selfDestruct = new SelfDestruct(this, "selfDestructor", {
+timeToLive: Duration.minutes(60)
+});
 ```
-
-
-

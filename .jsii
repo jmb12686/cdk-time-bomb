@@ -1152,7 +1152,7 @@
   "license": "MIT",
   "name": "cdk-time-bomb",
   "readme": {
-    "markdown": "# cdk-time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module, and instantiate with TTL value (duration until entire stack is destroyed)\n\n\n```typescript\nTODO\n```\n\n\n"
+    "markdown": "# cdk-time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:\n\n\n```javascript\nimport { SelfDestruct} from 'cdk-time-bomb';\nconst selfDestruct = new SelfDestruct(this, \"selfDestructor\", {\ntimeToLive: Duration.minutes(60)\n});\n```"
   },
   "repository": {
     "type": "git",
@@ -1251,6 +1251,6 @@
       ]
     }
   },
-  "version": "0.0.1",
-  "fingerprint": "4U9bi6DD02OATgbtw8259qV8qV1BORa3/ENiH69uNgE="
+  "version": "1.0.0",
+  "fingerprint": "VAVLliYabqxgLjhDhPGZFiZ0Vr/4k/35v/r+avPV96w="
 }
