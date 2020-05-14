@@ -1169,10 +1169,6 @@
     "python": {
       "distName": "cdk-time-bomb",
       "module": "cdk-time-bomb"
-    },
-    "tsc": {
-      "outDir": "./lib/",
-      "rootDir": "./lib/"
     }
   },
   "types": {
@@ -1248,5 +1244,5 @@
     }
   },
   "version": "1.0.0",
-  "fingerprint": "Y/D4mm/yVtCI0OjSLkjkof8+ljiRNtb98iXYWntthNg="
+  "fingerprint": "ZYG5X8Aouv6ybi+pcoO3F5vlgbgV7h4okiPDAwjGB8M="
 }

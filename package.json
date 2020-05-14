@@ -35,13 +35,9 @@
           "groupId": "jmb12686.cdk",
           "artifactId": "timebomb"
         }
-      },
-      "tsc": {
-        "outDir": "./lib/",
-        "rootDir": "./lib/"
       }
     },
-    "outdir": "./lib/"
+    "outdir": "dist"
   },
   "license": "MIT",
   "bugs": {
