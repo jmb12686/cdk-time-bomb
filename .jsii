@@ -1144,11 +1144,15 @@
   },
   "homepage": "https://github.com/jmb12686/time-bomb#readme",
   "jsiiVersion": "1.5.0 (build 46538f8)",
-  "keywords": [],
+  "keywords": [
+    "cdk",
+    "aws-cdk",
+    "aws"
+  ],
   "license": "MIT",
-  "name": "time-bomb",
+  "name": "cdk-time-bomb",
   "readme": {
-    "markdown": "# time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n"
+    "markdown": "# cdk-time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module, and instantiate with TTL value (duration until entire stack is destroyed)\n\n\n```typescript\nTODO\n```\n\n\n"
   },
   "repository": {
     "type": "git",
@@ -1168,7 +1172,7 @@
       "package": "jmb12686.cdk.timebomb"
     },
     "js": {
-      "npm": "time-bomb"
+      "npm": "cdk-time-bomb"
     },
     "python": {
       "distName": "cdk-time-bomb",
@@ -1176,13 +1180,13 @@
     }
   },
   "types": {
-    "time-bomb.SelfDestruct": {
-      "assembly": "time-bomb",
+    "cdk-time-bomb.SelfDestruct": {
+      "assembly": "cdk-time-bomb",
       "base": "@aws-cdk/core.Construct",
       "docs": {
         "stability": "experimental"
       },
-      "fqn": "time-bomb.SelfDestruct",
+      "fqn": "cdk-time-bomb.SelfDestruct",
       "initializer": {
         "docs": {
           "stability": "experimental"
@@ -1203,7 +1207,7 @@
           {
             "name": "props",
             "type": {
-              "fqn": "time-bomb.SelfDestructProps"
+              "fqn": "cdk-time-bomb.SelfDestructProps"
             }
           }
         ]
@@ -1215,13 +1219,13 @@
       },
       "name": "SelfDestruct"
     },
-    "time-bomb.SelfDestructProps": {
-      "assembly": "time-bomb",
+    "cdk-time-bomb.SelfDestructProps": {
+      "assembly": "cdk-time-bomb",
       "datatype": true,
       "docs": {
         "stability": "experimental"
       },
-      "fqn": "time-bomb.SelfDestructProps",
+      "fqn": "cdk-time-bomb.SelfDestructProps",
       "kind": "interface",
       "locationInModule": {
         "filename": "lib/index.ts",
@@ -1247,6 +1251,6 @@
       ]
     }
   },
-  "version": "1.0.0",
-  "fingerprint": "ZiUrRbl9uqrCs+KE0TPu88x2tDU5yQBZ4Jjxm7V6Nu4="
+  "version": "0.0.1",
+  "fingerprint": "4U9bi6DD02OATgbtw8259qV8qV1BORa3/ENiH69uNgE="
 }

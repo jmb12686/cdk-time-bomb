@@ -7,12 +7,8 @@ tsconfig.json
 !*.js
 !*.d.ts
 
-# Exclude jsii outdir
-lib
-
 # Include .jsii
 !.jsii
-
 
 # Exclude jsii outdir
 dist
