@@ -1,6 +1,6 @@
 {
   "name": "cdk-time-bomb",
-  "version": "1.0.1",
+  "version": "1.1.0-beta.0",
   "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
