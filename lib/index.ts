@@ -45,11 +45,11 @@ export class SelfDestruct extends Construct {
       },
     });
 
-    const selfDestructLambda = new lambda.Function(
+    const selfDestructLambda = new lambda.SingletonFunction(
       this,
       "self-destruct-stack-app",
       {
-        functionName: "self-destruct-function",
+        uuid: "6024fd94-c050-11ea-b3de-0242ac130004",
         runtime: lambda.Runtime.PYTHON_3_6,
         role: selfDestructRole,
         handler: "index.handler",
@@ -66,7 +66,6 @@ def handler(event, context):
       }
     );
 
-    //Every 10 minutes
     const rule = new Rule(this, "SelfDestructRule", {
       schedule: Schedule.rate(props.timeToLive),
     });
