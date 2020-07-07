@@ -1202,7 +1202,7 @@
   "license": "MIT",
   "name": "cdk-time-bomb",
   "readme": {
-    "markdown": "# cdk-time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:\n\n\n```javascript\nimport { SelfDestruct} from 'cdk-time-bomb';\nconst selfDestruct = new SelfDestruct(this, \"selfDestructor\", {\ntimeToLive: Duration.minutes(60)\n});\n```"
+    "markdown": "# cdk-time-bomb\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:\n\n\n```javascript\nimport { SelfDestruct} from 'cdk-time-bomb';\nconst selfDestruct = new SelfDestruct(this, \"selfDestructor\", {\ntimeToLive: Duration.minutes(60)\n});\n```\n\n\n## Build and Deploy\n\nDue to the large amount of dependencies required by jsii, use the docker image `udondan/jsii-publish` to reliably and consistenly build this CDK construct.\n\n```bash\ndocker run -it \\\n    --workdir /workdir \\\n    --volume $(pwd):/workdir \\\n    --env VERSION=0.3.0 \\\n    --env BUILD_SOURCE=true \\\n    --env BUILD_PACKAGES=true \\\n    --env NPM_TOKEN \\\n    --env PYPI_TOKEN \\\n    --env NUGET_TOKEN \\\n    --env GITHUB_TOKEN \\\n    --env GITHUB_REPOSITORY=\"${OWNER}/${REPOSITORY}\" \\\n    udondan/jsii-publish:0.8.3\n```\n"
   },
   "repository": {
     "type": "git",
@@ -1301,6 +1301,6 @@
       ]
     }
   },
-  "version": "1.0.0",
-  "fingerprint": "VAVLliYabqxgLjhDhPGZFiZ0Vr/4k/35v/r+avPV96w="
+  "version": "1.50.0",
+  "fingerprint": "UQiABhAWBZ6AvL90wA1DHR6NoweKEjsDn0do5qYAJyU="
 }
