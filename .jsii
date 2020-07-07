@@ -8,11 +8,11 @@
     "url": "https://github.com/jmb12686"
   },
   "dependencies": {
-    "@aws-cdk/aws-events": "^1.38.0",
-    "@aws-cdk/aws-events-targets": "^1.38.0",
-    "@aws-cdk/aws-iam": "^1.38.0",
-    "@aws-cdk/aws-lambda": "^1.38.0",
-    "@aws-cdk/core": "^1.38.0"
+    "@aws-cdk/aws-events": "^1.50.0",
+    "@aws-cdk/aws-events-targets": "^1.50.0",
+    "@aws-cdk/aws-iam": "^1.50.0",
+    "@aws-cdk/aws-lambda": "^1.50.0",
+    "@aws-cdk/core": "^1.50.0"
   },
   "dependencyClosure": {
     "@aws-cdk/assets": {
@@ -490,6 +490,31 @@
         }
       }
     },
+    "@aws-cdk/aws-efs": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.EFS",
+          "packageId": "Amazon.CDK.AWS.EFS",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "efs",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.efs"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-efs"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-efs",
+          "module": "aws_cdk.aws_efs"
+        }
+      }
+    },
     "@aws-cdk/aws-elasticloadbalancing": {
       "targets": {
         "dotnet": {
@@ -612,6 +637,31 @@
         "python": {
           "distName": "aws-cdk.aws-iam",
           "module": "aws_cdk.aws_iam"
+        }
+      }
+    },
+    "@aws-cdk/aws-kinesis": {
+      "targets": {
+        "dotnet": {
+          "assemblyOriginatorKeyFile": "../../key.snk",
+          "iconUrl": "https://raw.githubusercontent.com/aws/aws-cdk/master/logo/default-256-dark.png",
+          "namespace": "Amazon.CDK.AWS.Kinesis",
+          "packageId": "Amazon.CDK.AWS.Kinesis",
+          "signAssembly": true
+        },
+        "java": {
+          "maven": {
+            "artifactId": "kinesis",
+            "groupId": "software.amazon.awscdk"
+          },
+          "package": "software.amazon.awscdk.services.kinesis"
+        },
+        "js": {
+          "npm": "@aws-cdk/aws-kinesis"
+        },
+        "python": {
+          "distName": "aws-cdk.aws-kinesis",
+          "module": "aws_cdk.aws_kinesis"
         }
       }
     },
@@ -1143,7 +1193,7 @@
     "stability": "experimental"
   },
   "homepage": "https://github.com/jmb12686/time-bomb#readme",
-  "jsiiVersion": "1.5.0 (build 46538f8)",
+  "jsiiVersion": "1.8.0 (build 4a047ac)",
   "keywords": [
     "cdk",
     "aws-cdk",

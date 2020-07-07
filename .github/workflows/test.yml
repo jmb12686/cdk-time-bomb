@@ -1,0 +1,31 @@
+name: Test Build and Package
+
+on:
+  pull_request:
+    branches: master
+  push:
+    branches: master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\/v/}
+
+      - name: Checkout code
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Build source
+        uses: udondan/jsii-publish@v0.8.3
+        with:
+          VERSION: ${{ steps.get_version.outputs.VERSION }}
+          BUILD_SOURCE: true
+
+      - name: Build packages
+        uses: udondan/jsii-publish@v0.8.3
+        with:
+          BUILD_PACKAGES: true

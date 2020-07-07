@@ -18,3 +18,23 @@ const selfDestruct = new SelfDestruct(this, "selfDestructor", {
 timeToLive: Duration.minutes(60)
 });
 ```
+
+
+## Build and Deploy
+
+Due to the large amount of dependencies required by jsii, use the docker image `udondan/jsii-publish` to reliably and consistenly build this CDK construct.  
+
+```bash
+docker run -it \
+    --workdir /workdir \
+    --volume $(pwd):/workdir \
+    --env VERSION=0.3.0 \
+    --env BUILD_SOURCE=true \
+    --env BUILD_PACKAGES=true \
+    --env NPM_TOKEN \
+    --env PYPI_TOKEN \
+    --env NUGET_TOKEN \
+    --env GITHUB_TOKEN \
+    --env GITHUB_REPOSITORY="${OWNER}/${REPOSITORY}" \
+    udondan/jsii-publish:0.8.3
+```
