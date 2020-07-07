@@ -22,7 +22,7 @@ jobs:
       - name: Build source
         uses: udondan/jsii-publish@v0.8.3
         with:
-          VERSION: ${{ steps.get_version.outputs.VERSION }}
+          # VERSION: ${{ steps.get_version.outputs.VERSION }}
           BUILD_SOURCE: true
 
       - name: Build packages
