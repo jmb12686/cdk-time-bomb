@@ -12,7 +12,7 @@
     "watch": "tsc -w"
   },
   "repository": {
-    "url": "https://github.com/jmb12686/time-bomb.git"
+    "url": "https://github.com/jmb12686/cdk-time-bomb.git"
   },
   "stability": "experimental",
   "keywords": [
@@ -33,24 +33,24 @@
         "distName": "cdk-time-bomb"
       },
       "java": {
-        "package": "jmb12686.cdk.timebomb",
+        "package": "io.github.jmb12686",
         "maven": {
-          "groupId": "jmb12686.cdk",
-          "artifactId": "timebomb"
+          "groupId": "io.github.jmb12686",
+          "artifactId": "cdk-time-bomb"
         }
       },
       "dotnet": {
-        "namespace": "jmb12686.timebomb",
-        "packageId": "jmb12686.timebomb"
+        "namespace": "io.github.jmb12686",
+        "packageId": "cdk-time-bomb"
       }
     },
     "outdir": "dist"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jmb12686/time-bomb/issues"
+    "url": "https://github.com/jmb12686/cdk-time-bomb/issues"
   },
-  "homepage": "https://github.com/jmb12686/time-bomb#readme",
+  "homepage": "https://github.com/jmb12686/cdk-time-bomb#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "@types/node": "^13.13.13",

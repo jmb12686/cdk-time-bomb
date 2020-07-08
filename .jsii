@@ -1192,7 +1192,7 @@
   "docs": {
     "stability": "experimental"
   },
-  "homepage": "https://github.com/jmb12686/time-bomb#readme",
+  "homepage": "https://github.com/jmb12686/cdk-time-bomb#readme",
   "jsiiVersion": "1.8.0 (build 4a047ac)",
   "keywords": [
     "cdk",
@@ -1202,24 +1202,24 @@
   "license": "MIT",
   "name": "cdk-time-bomb",
   "readme": {
-    "markdown": "# cdk-time-bomb\n\n[![npm version](https://badge.fury.io/js/cdk-time-bomb.svg)](https://badge.fury.io/js/cdk-time-bomb)\n[![PyPI Version](https://badge.fury.io/py/cdk-time-bomb.svg)](https://badge.fury.io/py/cdk-time-bomb)\n\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\n### JavaScript / TypeScript\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:\n\n\n```javascript\nimport { SelfDestruct} from 'cdk-time-bomb';\nconst selfDestruct = new SelfDestruct(this, \"selfDestructor\", {\n  timeToLive: Duration.minutes(60)\n});\n```\n\n### Python\n\nInstall using pip\n\n```bash\npip install cdk-time-bomb\n```\n\n## How to build this construct\n\nDue to the large amount of dependencies required by jsii, use the docker image `udondan/jsii-publish` to reliably and consistenly build this CDK construct.\n\n```bash\ndocker run -it \\\n    --workdir /workdir \\\n    --volume $(pwd):/workdir \\\n    --env VERSION=0.3.0 \\\n    --env BUILD_SOURCE=true \\\n    --env BUILD_PACKAGES=true \\\n    --env NPM_TOKEN \\\n    --env PYPI_TOKEN \\\n    --env NUGET_TOKEN \\\n    --env GITHUB_TOKEN \\\n    --env GITHUB_REPOSITORY=\"${OWNER}/${REPOSITORY}\" \\\n    udondan/jsii-publish:0.8.3\n```\n"
+    "markdown": "# cdk-time-bomb\n\n[![npm version](https://badge.fury.io/js/cdk-time-bomb.svg)](https://badge.fury.io/js/cdk-time-bomb)\n[![PyPI Version](https://badge.fury.io/py/cdk-time-bomb.svg)](https://badge.fury.io/py/cdk-time-bomb)\n\nImplode your AWS CDK Stack after set amount of time, save money, be happy!\n\n## Usage\n\n### JavaScript / TypeScript\n\nIn your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:\n\n```bash\nnpm install cdk-time-bomb\n```\n\nImport the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:\n\n\n```javascript\nimport { SelfDestruct} from 'cdk-time-bomb';\nconst selfDestruct = new SelfDestruct(this, \"selfDestructor\", {\n  timeToLive: Duration.minutes(60)\n});\n```\n\n### Python\n\nInstall using pip\n\n```bash\npip install cdk-time-bomb\n```\n\n### Java\n\nFollow the [guide for configuring maven for use with Github Packages](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages).  Then add the following to your project's `pom.xml`\n\n```xml\n<dependency>\n  <groupId>jmb12686.cdk</groupId>\n  <artifactId>timebomb</artifactId>\n  <version>1.50.0</version>\n</dependency>\n```\n\n## How to build this construct\n\nDue to the large amount of dependencies required by jsii, use the docker image `udondan/jsii-publish` to reliably and consistenly build this CDK construct.\n\n```bash\ndocker run -it \\\n    --workdir /workdir \\\n    --volume $(pwd):/workdir \\\n    --env VERSION=0.3.0 \\\n    --env BUILD_SOURCE=true \\\n    --env BUILD_PACKAGES=true \\\n    --env NPM_TOKEN \\\n    --env PYPI_TOKEN \\\n    --env NUGET_TOKEN \\\n    --env GITHUB_TOKEN \\\n    --env GITHUB_REPOSITORY=\"${OWNER}/${REPOSITORY}\" \\\n    udondan/jsii-publish:0.8.3\n```\n"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmb12686/time-bomb.git"
+    "url": "https://github.com/jmb12686/cdk-time-bomb.git"
   },
   "schema": "jsii/0.10.0",
   "targets": {
     "dotnet": {
-      "namespace": "jmb12686.timebomb",
-      "packageId": "jmb12686.timebomb"
+      "namespace": "io.github.jmb12686",
+      "packageId": "cdk-time-bomb"
     },
     "java": {
       "maven": {
-        "artifactId": "timebomb",
-        "groupId": "jmb12686.cdk"
+        "artifactId": "cdk-time-bomb",
+        "groupId": "io.github.jmb12686"
       },
-      "package": "jmb12686.cdk.timebomb"
+      "package": "io.github.jmb12686"
     },
     "js": {
       "npm": "cdk-time-bomb"
@@ -1302,5 +1302,5 @@
     }
   },
   "version": "1.50.0",
-  "fingerprint": "NEY05ICinl+7XMZcEWzR53XhmqtIEjQYpu5AytTEuzQ="
+  "fingerprint": "Vqa6t1RGBCliu90gFeuKz50KFpV3ZstGCKGfQ4tn728="
 }
