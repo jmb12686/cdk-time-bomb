@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/cdk-time-bomb.svg)](https://badge.fury.io/js/cdk-time-bomb)
 [![PyPI Version](https://badge.fury.io/py/cdk-time-bomb.svg)](https://badge.fury.io/py/cdk-time-bomb)
+![Nuget](https://img.shields.io/nuget/v/cdk-time-bomb)
 
 Implode your AWS CDK Stack after set amount of time, save money, be happy!
 
