@@ -7,6 +7,8 @@ Implode your AWS CDK Stack after set amount of time, save money, be happy!
 
 ## Usage
 
+### JavaScript / TypeScript
+
 In your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:
 
 ```bash
@@ -23,8 +25,15 @@ const selfDestruct = new SelfDestruct(this, "selfDestructor", {
 });
 ```
 
+### Python
 
-## Build and Deploy
+Install using pip
+
+```bash
+pip install cdk-time-bomb
+```
+
+## How to build this construct
 
 Due to the large amount of dependencies required by jsii, use the docker image `udondan/jsii-publish` to reliably and consistenly build this CDK construct.  
 
