@@ -33,6 +33,18 @@ Install using pip
 pip install cdk-time-bomb
 ```
 
+### Java
+
+Follow the [guide for configuring maven for use with Github Packages](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages).  Then add the following to your project's `pom.xml`
+
+```xml
+<dependency>
+  <groupId>jmb12686.cdk</groupId>
+  <artifactId>timebomb</artifactId>
+  <version>1.50.0</version>
+</dependency>
+```
+
 ## How to build this construct
 
 Due to the large amount of dependencies required by jsii, use the docker image `udondan/jsii-publish` to reliably and consistenly build this CDK construct.  

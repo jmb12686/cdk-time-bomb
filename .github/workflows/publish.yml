@@ -39,3 +39,9 @@ jobs:
         uses: udondan/jsii-publish@v0.8.3
         with:
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+
+      - name: Publish to Maven GitHub
+        uses: udondan/jsii-publish@v0.8.3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ GITHUB_REPOSITORY }}
