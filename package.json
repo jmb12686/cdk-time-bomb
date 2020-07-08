@@ -12,8 +12,7 @@
     "watch": "tsc -w"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmb12686/time-bomb.git"
+    "url": "https://github.com/jmb12686/time-bomb.git"
   },
   "stability": "experimental",
   "keywords": [
@@ -30,7 +29,7 @@
   "jsii": {
     "targets": {
       "python": {
-        "module": "cdk-time-bomb",
+        "module": "cdk_time_bomb",
         "distName": "cdk-time-bomb"
       },
       "java": {

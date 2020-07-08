@@ -1,4 +1,8 @@
 # cdk-time-bomb
+
+[![npm version](https://badge.fury.io/js/cdk-time-bomb.svg)](https://badge.fury.io/js/cdk-time-bomb)
+[![PyPI Version](https://badge.fury.io/py/cdk-time-bomb.svg)](https://badge.fury.io/py/cdk-time-bomb)
+
 Implode your AWS CDK Stack after set amount of time, save money, be happy!
 
 ## Usage
@@ -15,7 +19,7 @@ Import the module and instantiate in your CDK Stack class.  Specify a TTL Durati
 ```javascript
 import { SelfDestruct} from 'cdk-time-bomb';
 const selfDestruct = new SelfDestruct(this, "selfDestructor", {
-timeToLive: Duration.minutes(60)
+  timeToLive: Duration.minutes(60)
 });
 ```
 
