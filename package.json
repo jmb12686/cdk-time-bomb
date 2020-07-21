@@ -1,6 +1,6 @@
 {
   "name": "cdk-time-bomb",
-  "version": "1.50.0",
+  "version": "1.53.0",
   "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -53,24 +53,24 @@
   "homepage": "https://github.com/jmb12686/cdk-time-bomb#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
-    "@types/node": "^13.13.13",
+    "@types/node": "^13.13.14",
     "jest": "^26.1.0",
-    "jsii": "^1.8.0",
-    "jsii-pacmak": "^1.8.0",
+    "jsii": "^1.9.0",
+    "jsii-pacmak": "^1.9.0",
     "ts-jest": "^25.5.1"
   },
   "dependencies": {
-    "@aws-cdk/aws-events": "^1.50.0",
-    "@aws-cdk/aws-events-targets": "^1.50.0",
-    "@aws-cdk/aws-iam": "^1.50.0",
-    "@aws-cdk/aws-lambda": "^1.50.0",
-    "@aws-cdk/core": "^1.50.0"
+    "@aws-cdk/aws-events": "^1.53.0",
+    "@aws-cdk/aws-events-targets": "^1.53.0",
+    "@aws-cdk/aws-iam": "^1.53.0",
+    "@aws-cdk/aws-lambda": "^1.53.0",
+    "@aws-cdk/core": "^1.53.0"
   },
   "peerDependencies": {
-    "@aws-cdk/aws-events": "^1.50.0",
-    "@aws-cdk/aws-events-targets": "^1.50.0",
-    "@aws-cdk/aws-iam": "^1.50.0",
-    "@aws-cdk/aws-lambda": "^1.50.0",
-    "@aws-cdk/core": "^1.50.0"
+    "@aws-cdk/aws-events": "^1.53.0",
+    "@aws-cdk/aws-events-targets": "^1.53.0",
+    "@aws-cdk/aws-iam": "^1.53.0",
+    "@aws-cdk/aws-lambda": "^1.53.0",
+    "@aws-cdk/core": "^1.53.0"
   }
 }
