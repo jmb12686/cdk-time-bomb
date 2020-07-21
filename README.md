@@ -26,6 +26,15 @@ const selfDestruct = new SelfDestruct(this, "selfDestructor", {
 });
 ```
 
+Be sure to add an ordering dependency on a high level base Construct in your stack.  For example anchoring `SelfDestruct` to the `Vpc` ensures all resources in the stack will be destroyed prior to destroying itself.
+
+```javascript
+const vpc = new ec2.Vpc(this, "VPC", {
+});
+
+vpc.node.addDependency(selfDestruct);
+```
+
 ### Python
 
 Install using pip
