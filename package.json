@@ -53,7 +53,7 @@
   "homepage": "https://github.com/jmb12686/cdk-time-bomb#readme",
   "devDependencies": {
     "@types/jest": "^26.0.5",
-    "@types/node": "^14.0.24",
+    "@types/node": "^15.12.2",
     "jest": "^26.1.0",
     "jsii": "^1.9.0",
     "jsii-pacmak": "^1.9.0",
