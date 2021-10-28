@@ -19,13 +19,18 @@ export class SelfDestruct extends Construct {
 
     const selfDestructPolicy: PolicyDocument = new PolicyDocument();
 
+    const stack = cdk.Stack.of(this);
+
     /** define inline policies */
     const selfDestructPolicyStatements: PolicyStatement[] = [
-      //temporarily allow ALL
       new iam.PolicyStatement({
         effect: iam.Effect.ALLOW,
-        actions: ["*"],
-        resources: ["*"],
+        actions: ["cloudformation:DeleteStack"],
+        resources: [stack.formatArn({
+          service: 'cloudformation',
+          resource: 'stack',
+          resourceName: stack.stackName+'/*',
+        })],
       }),
     ];
 
