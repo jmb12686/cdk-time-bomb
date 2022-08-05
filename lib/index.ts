@@ -50,7 +50,7 @@ export class SelfDestruct extends Construct {
       "self-destruct-stack-app",
       {
         uuid: "6024fd94-c050-11ea-b3de-0242ac130004",
-        runtime: lambda.Runtime.PYTHON_3_6,
+        runtime: lambda.Runtime.PYTHON_3_8,
         role: selfDestructRole,
         handler: "index.handler",
         code: lambda.Code.fromInline(`
