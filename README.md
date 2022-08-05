@@ -1,8 +1,8 @@
-# cdk-time-bomb
+# cdk-implode
 
-[![npm version](https://badge.fury.io/js/cdk-time-bomb.svg)](https://badge.fury.io/js/cdk-time-bomb)
-[![PyPI Version](https://badge.fury.io/py/cdk-time-bomb.svg)](https://badge.fury.io/py/cdk-time-bomb)
-![Nuget](https://img.shields.io/nuget/v/cdk-time-bomb)
+[![npm version](https://badge.fury.io/js/cdk-implode.svg)](https://badge.fury.io/js/cdk-implode)
+[![PyPI Version](https://badge.fury.io/py/cdk-implode.svg)](https://badge.fury.io/py/cdk-implode)
+![Nuget](https://img.shields.io/nuget/v/cdk-implode)
 
 Implode your AWS CDK Stack after set amount of time, save money, be happy!
 
@@ -10,17 +10,17 @@ Implode your AWS CDK Stack after set amount of time, save money, be happy!
 
 ### JavaScript / TypeScript
 
-In your Typescipt / Javascript AWS CDK project, add the `cdk-time-bomb` module:
+In your Typescipt / Javascript AWS CDK project, add the `cdk-implode` module:
 
 ```bash
-npm install cdk-time-bomb
+npm install cdk-implode
 ```
 
 Import the module and instantiate in your CDK Stack class.  Specify a TTL Duration after which time the entire CloudFormation stack will self destroy:
 
 
 ```javascript
-import { SelfDestruct} from 'cdk-time-bomb';
+import { SelfDestruct} from 'cdk-implode';
 const selfDestruct = new SelfDestruct(this, "selfDestructor", {
   timeToLive: Duration.minutes(60)
 });
@@ -40,7 +40,7 @@ vpc.node.addDependency(selfDestruct);
 Install using pip
 
 ```bash
-pip install cdk-time-bomb
+pip install cdk-implode
 ```
 
 ### Java
@@ -49,7 +49,7 @@ Follow the [guide for configuring maven for use with Github Packages](https://do
 
 ```xml
 <dependency>
-  <groupId>jmb12686.cdk</groupId>
+  <groupId>olich538.cdk</groupId>
   <artifactId>timebomb</artifactId>
   <version>1.50.0</version>
 </dependency>

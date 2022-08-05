@@ -1,5 +1,5 @@
 {
-  "name": "cdk-time-bomb",
+  "name": "cdk-implode",
   "version": "1.53.0",
   "description": "Implode your AWS CDK Stack after set amount of time, save money, be happy!",
   "main": "./lib/index.js",
@@ -12,7 +12,7 @@
     "watch": "tsc -w"
   },
   "repository": {
-    "url": "https://github.com/jmb12686/cdk-time-bomb.git"
+    "url": "https://github.com/olich538/cdk-implode.git"
   },
   "stability": "experimental",
   "keywords": [
@@ -21,36 +21,36 @@
     "aws"
   ],
   "author": {
-    "name": "John Belisle",
-    "email": "jmb186@gmail.com",
-    "url": "https://github.com/jmb12686",
+    "name": "Oleg Polej",
+    "email": "polejai538@gmail.com",
+    "url": "https://github.com/olich538",
     "organization": false
   },
   "jsii": {
     "targets": {
       "python": {
-        "module": "cdk_time_bomb",
-        "distName": "cdk-time-bomb"
+        "module": "cdk_implode",
+        "distName": "cdk-implode"
       },
       "java": {
-        "package": "io.github.jmb12686",
+        "package": "io.github.olich538",
         "maven": {
           "groupId": "io.github.jmb12686",
-          "artifactId": "cdk-time-bomb"
+          "artifactId": "cdk-implode"
         }
       },
       "dotnet": {
         "namespace": "io.github.jmb12686",
-        "packageId": "cdk-time-bomb"
+        "packageId": "cdk-implode"
       }
     },
     "outdir": "dist"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jmb12686/cdk-time-bomb/issues"
+    "url": "https://github.com/olich538/cdk-implode/issues"
   },
-  "homepage": "https://github.com/jmb12686/cdk-time-bomb#readme",
+  "homepage": "https://github.com/olich538/cdk-implode#readme",
   "devDependencies": {
     "@types/jest": "^26.0.5",
     "@types/node": "^14.0.24",
