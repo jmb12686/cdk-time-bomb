@@ -54,9 +54,11 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^22.0.0",
+    "constructs": "~3.4.0",
     "jest": "^30.0.0",
     "jsii": "^5.0.0",
     "jsii-pacmak": "^1.127.0",
+    "jsii-rosetta": "^5.9.34",
     "ts-jest": "^29.0.0"
   },
   "dependencies": {
